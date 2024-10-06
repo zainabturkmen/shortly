@@ -534,6 +534,18 @@ Ensure the default browser behavior of the `hidden` attribute.
   top: -2.5rem;
 }
 
+.left-6 {
+  left: 1.5rem;
+}
+
+.right-6 {
+  right: 1.5rem;
+}
+
+.top-20 {
+  top: 5rem;
+}
+
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
@@ -719,8 +731,34 @@ Ensure the default browser behavior of the `hidden` attribute.
   border-radius: 0.5rem;
 }
 
+.rounded {
+  border-radius: 0.25rem;
+}
+
+.rounded-sm {
+  border-radius: 0.125rem;
+}
+
 .border-2 {
   border-width: 2px;
+}
+
+.border {
+  border-width: 1px;
+}
+
+.border-t {
+  border-top-width: 1px;
+}
+
+.border-gray-400 {
+  --tw-border-opacity: 1;
+  border-color: rgb(156 163 175 / var(--tw-border-opacity));
+}
+
+.border-t-orange-50 {
+  --tw-border-opacity: 1;
+  border-top-color: rgb(255 247 237 / var(--tw-border-opacity));
 }
 
 .bg-cyan {
