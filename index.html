@@ -16,6 +16,7 @@
       type="image/png"
       href="images/favicon-32x32.png" />
     <link rel="stylesheet" href="css/style.css" />
+    <script src="js/script.js" defer></script>
   </head>
   <body>
     <!-- Nav Container -->
@@ -93,19 +94,23 @@
         <!-- Form -->
         <form
           action=""
-          id="link-from"
+          id="link-form"
           class="relative flex flex-col w-full p-10 -mt-20 space-y-4 bg-darkViolet rounded-lg md:flex-row md:space-y-0 md:space-x-3">
           <input
             type="text"
             class="flex-1 p-3 border-2 rounded-lg placeholder-yellow-500 focus:outline-none"
             placeholder="Shorten a link here"
-            id="link-iput" />
+            id="link-input" />
           <button
             class="px-10 py-3 text-white bg-cyan rounded-lg hover:bg-cyanLight focus:outline-none mdpy-2">
             Shorten It!
           </button>
           <!-- Error Messages -->
-          <div id="err-msg" class="absolute left-7 bottom-3 text-red text-sm italic">Hello</div>
+          <div
+            id="err-msg"
+            class="absolute left-7 bottom-3 text-red text-sm italic">
+            Hello
+          </div>
         </form>
         <!-- Link 1 -->
         <div
@@ -153,6 +158,13 @@
             </button>
           </div>
         </div>
+      </div>
+    </section>
+
+    <!-- State Section -->
+    <section id="stats" class="py-24 bg-gray-100">
+      <div class="container mx-auto px-3">
+        <h2 class="text-4xl mb-6 font-bold text-center"></h2>
       </div>
     </section>
   </body>
